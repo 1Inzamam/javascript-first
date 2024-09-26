@@ -12,3 +12,15 @@ var days = 15;
  console.log(balance)
  
  console.log(typeof price)
+ 
+//  to convert a string to number 
+
+var dance = parseInt("69")
+ console.log(dance)
+ console.log(typeof dance)
+
+ dance = "69";
+ console.log(dance)
+ console.log(typeof dance)
+
+ 

@@ -1,3 +1,5 @@
+// Variable const and isNaN function in javascript
+// const variables cannot be re-declared and re-assigned 
 
 const a = isNaN('11');  // output: false because javascript can convert the string "11" in to a number so the NaN "not a number" returns false
 console.log(a)

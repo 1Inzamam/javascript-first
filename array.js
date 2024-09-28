@@ -6,3 +6,7 @@ const mix = ['good', 1, 'free','kick', 10];
 
 // how to check array length
 console.log(numbers.length);
+
+// how to check a single index of an array 
+
+console.log(numbers[2]);

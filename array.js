@@ -10,3 +10,8 @@ console.log(numbers.length);
 // how to check a single index of an array 
 
 console.log(numbers[2]);
+
+// how to set value in any index of an array 
+
+numbers[0] = 1000;
+console.log(numbers)

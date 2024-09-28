@@ -16,6 +16,11 @@ console.log(numbers[2]);
 numbers[0] = 1000;
 console.log(numbers)
 
+
+
+//*********************************************************** */
+
+
 // how to push and pop 
 
 // push 
@@ -57,8 +62,25 @@ if(names.includes('xander')){
 }
 
 
+//*********************************************************** */
+
+
 // indexOf 
 // in order to find a specific element's index the method "indexOf" is used
 // example 
 
 console.log(names.indexOf('basim'));
+
+
+
+
+//*********************************************************** */
+
+
+//how to check a variable if it is an array or not
+// returns true or false
+
+console.log(Array.isArray(numbers));
+
+var test = 6;
+console.log(Array.isArray(test));

@@ -18,7 +18,20 @@ console.log(numbers)
 
 // how to push and pop 
 
+// push 
+// push means adding an element to tha last of an array
 // numbers.push(6);
 // numbers.push(7,8);
 numbers.push(6, 7, 8, 9, 10, 11, 12, 13, 14, 15);
 console.log(numbers);
+
+
+// pop 
+// pop works for removing an element from the last of an array 
+
+numbers.pop();
+console.log(numbers);
+
+// shift unshift 
+// shift works to removing an element to the start of an array
+// unshift works to add an element to the start of an array

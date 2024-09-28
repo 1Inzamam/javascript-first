@@ -35,3 +35,19 @@ console.log(numbers);
 // shift unshift 
 // shift works to removing an element to the start of an array
 // unshift works to add an element to the start of an array
+
+
+
+// how includs works
+// includs checks the array list if there is any similar element available 
+// if the element is available then includs returns true else false
+
+console.log(names.includes('ajam'))
+
+// simple conditions using includs 
+
+if(names.includes('xander')){
+    console.log('xander is under arrest');
+}else{
+    console.log('sorry for the disturbance');
+}

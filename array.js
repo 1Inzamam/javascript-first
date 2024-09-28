@@ -38,6 +38,10 @@ console.log(numbers);
 
 
 
+// *****************************************************
+
+
+
 // how includs works
 // includs checks the array list if there is any similar element available 
 // if the element is available then includs returns true else false
@@ -51,3 +55,10 @@ if(names.includes('xander')){
 }else{
     console.log('sorry for the disturbance');
 }
+
+
+// indexOf 
+// in order to find a specific element's index the method "indexOf" is used
+// example 
+
+console.log(names.indexOf('basim'));

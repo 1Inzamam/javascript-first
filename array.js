@@ -15,3 +15,10 @@ console.log(numbers[2]);
 
 numbers[0] = 1000;
 console.log(numbers)
+
+// how to push and pop 
+
+// numbers.push(6);
+// numbers.push(7,8);
+numbers.push(6, 7, 8, 9, 10, 11, 12, 13, 14, 15);
+console.log(numbers);

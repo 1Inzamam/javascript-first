@@ -53,12 +53,22 @@
 
 // even number using for loop and  continue 
 
-for (let num = 0; num<=10; num++){
-    if(num%2==1){
+// for (let num = 0; num<=10; num++){
+//     if(num%2==1){
+//         continue;
+//     }
+//     else{
+//         console.log(num);
+//     }
+// }
+
+// odd numbers using for loop and continue 
+
+for (let num=0; num<=10; num++){
+    if(num%2==0){
         continue;
     }
     else{
         console.log(num);
     }
 }
-

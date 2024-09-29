@@ -9,20 +9,20 @@
 
 // while loop
 
-let num2 = 1;
-while(num2 <= 10)
-{
-    console.log(num2);
-    num2++;
-}
+// let num2 = 1;
+// while(num2 <= 10)
+// {
+//     console.log(num2);
+//     num2++;
+// }
 
 // even number with while loop
 
-// let num = 1;
-// while(num <=10){
-//     if(num % 2 == 0){
-//         console.log("even number : ", num);
-//     }
-//     num++;
-// }
+let num = 1;
+while(num <=10){
+    if(num % 2 == 0){
+        console.log("even number : ", num);
+    }
+    num++;
+}
 

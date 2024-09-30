@@ -7,3 +7,11 @@ if(a.toLowerCase == b.toLowerCase){
 }else{
     console.log("different gender");
 }
+
+// use of slice
+
+const c = "chamber";
+const d = c.slice(3,6);
+console.log(d);
+
+//

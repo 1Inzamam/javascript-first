@@ -14,4 +14,8 @@ const c = "chamber";
 const d = c.slice(3,6);
 console.log(d);
 
-//
+//use of split
+
+console.log(c.split(''));
+
+// console.log(c.split());

@@ -46,8 +46,30 @@
 
 // use of concat
 
-const name1 = "bella";
-const work = "waitress";
+// const name1 = "bella";
+// const work = "waitress";
 
-const info = name1.concat(" is a ").concat(work);
-console.log(info);
+// const info = name1.concat(" is a ").concat(work);
+// console.log(info);
+
+
+////////////////////////////////////////////////////////////////////////////
+
+
+// reverse a string
+
+// reverse a string using for of
+const a = "man vs wild";
+// let container = "";
+// for(const i of a){
+//     container = i+container;
+    
+// }
+// console.log(container);
+
+
+
+// reverse using split reverse join
+
+const r = a.split('').reverse().join('');
+console.log(r);

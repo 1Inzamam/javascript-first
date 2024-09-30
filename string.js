@@ -36,8 +36,18 @@
 
 // use of join
 
-const e = "amanda, fiora, mozila, alex, adam, rowan";
-const f = e.split(",");
-console.log(f);
-g = f.join(' ');
-console.log(g);
+// const e = "amanda, fiora, mozila, alex, adam, rowan";
+// const f = e.split(",");
+// console.log(f);
+// g = f.join(' ');
+// console.log(g);
+
+///////////////////////////////////////////////////////////////////////////
+
+// use of concat
+
+const name1 = "bella";
+const work = "waitress";
+
+const info = name1.concat(" is a ").concat(work);
+console.log(info);

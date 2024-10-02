@@ -80,7 +80,10 @@ console.log(names.indexOf('basim'));
 //how to check a variable if it is an array or not
 // returns true or false
 
-console.log(Array.isArray(numbers));
+// console.log(Array.isArray(numbers));
 
-var test = 6;
-console.log(Array.isArray(test));
+// var test = 6;
+// console.log(Array.isArray(test));
+
+
+

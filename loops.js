@@ -72,3 +72,14 @@
 //         console.log(num);
 //     }
 // }
+
+// const array = ['man', 'woman', 'male', 'female'];
+
+// console.log(array);
+// const rev = array.reverse();
+// console.log(rev);
+
+// for (let i=0; i < array.length; i ++){
+//     console.log(array[i]);
+// }
+

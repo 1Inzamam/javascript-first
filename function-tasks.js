@@ -7,8 +7,6 @@
 // const result = multiply(2, 2 , 2, 2);
 // console.log(result);
 
-
-
 //////////////////////////conditions of multiplication and division if the number is even or odd///////////////////////////////////
 
 // function conditions(num){
@@ -23,19 +21,33 @@
 // const num = conditions(3);
 // console.log(num);
 
-
-
 ////////////////////////////Average of an array with function ////////////////////////////////
-function average(num){
-    let i=0;
-    let sum = 0;
-    for(const number of num){
-        i++;
-        sum = sum + number;
+
+// function average(num){
+//     let i=0;
+//     let sum = 0;
+//     for(const number of num){
+//         i++;
+//         sum = sum + number;
+//     }
+//     return sum/i;
+// }
+
+// const num = [2, 2, 2, 2 ,2];
+// const avg = average(num);
+// console.log(avg);
+
+///////////////////////////// counting string with function/////////////
+
+function count(str) {
+  let i = 0;
+  for (const num of str) {
+    if (num == '0') {
+      i++;
     }
-    return sum/i;
+  }return i;
 }
 
-const num = [2, 2, 2, 2 ,2];
-const avg = average(num);
-console.log(avg);
+const string = '1110011010';
+const counting = count(string);
+console.log(counting);

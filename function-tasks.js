@@ -39,15 +39,28 @@
 
 ///////////////////////////// counting string with function/////////////
 
-function count(str) {
-  let i = 0;
-  for (const num of str) {
-    if (num == '0') {
-      i++;
-    }
-  }return i;
-}
+// function count(str) {
+//   let i = 0;
+//   for (const num of str) {
+//     if (num == '0') {
+//       i++;
+//     }
+//   }return i;
+// }
 
-const string = '1110011010';
-const counting = count(string);
-console.log(counting);
+// const string = '11100110100';
+// const counting = count(string);
+// console.log(counting);
+
+
+////////////////////////////////////even odd/////////////////////////
+
+// function even_odd(num){
+//     if( num %2 == 0){
+//         console.log("even number");
+//     }
+//     else{
+//         console.log("odd number");
+//     }
+// }
+// even_odd(5);

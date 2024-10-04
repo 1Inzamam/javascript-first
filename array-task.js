@@ -24,15 +24,31 @@ const reversed = [];
 
 //////////////////////////EVEN NUMBER///////////////////////////////////////////////////
 
-const array = [11, 9, 12, 43, 7, 8, 22, 2, 1, 99, 100];
-const final_array = [];
-for (let i = 0; i < array.length; i++) {
-  const num = array[i];
-  if (num % 2 == 0) {
-    final_array.push(num);
-  }
+// const array = [11, 9, 12, 43, 7, 8, 22, 2, 1, 99, 100];
+// const final_array = [];
+// for (let i = 0; i < array.length; i++) {
+//   const num = array[i];
+//   if (num % 2 == 0) {
+//     final_array.push(num);
+//   }
+// }
+// const final_as = final_array.sort(function (a, b) {
+//   return a - b;
+// });
+// console.log(final_as);
+
+
+
+
+/////////////////////////////////////FOR OF CONCAT //////////////////////////////
+
+
+
+
+const char = ['i', 'me', 'and', 'my'];
+for(const i of char){
+    let con = i;
+    console.log(con);
 }
-const final_as = final_array.sort(function (a, b) {
-  return a - b;
-});
-console.log(final_as);
+const x=con.join();
+console.log(x);

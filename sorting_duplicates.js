@@ -11,3 +11,4 @@ function duplicate(str){
 const names = ['selina', 'salina gomez', 'rahim', 'mina', 'tom', 'raju', 'Jawad', 'jawad', 'jawad', 'qulsum', 'tahsin','tamanna'];
 const sort=duplicate(names);
 console.log(sort);
+////

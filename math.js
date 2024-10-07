@@ -20,3 +20,23 @@ function min(num){
 
 const minimum = min(array);
 console.log(minimum);
+
+
+//////////////////////////SUM OF OBJECT'S ELEMENTS ////////////////////////////////
+
+
+const array2 = [
+    {name: 'egg', price: 320},
+    {name: 'oil', price: 200},
+    {name: 'rice', price: 120},
+];
+
+let grandtotal = 0;
+function total(num){
+    for(let number of num){
+        grandtotal = grandtotal + number.price;
+    }
+    return grandtotal;
+}
+const shopping = total(array2);
+console.log(shopping);

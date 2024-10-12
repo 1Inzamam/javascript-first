@@ -71,5 +71,5 @@ const a = "man vs wild";
 
 // reverse using split reverse join
 
-const r = a.split('').reverse().join('');
-console.log(r);
+// const r = a.split('').reverse().join('');
+// console.log(r);
